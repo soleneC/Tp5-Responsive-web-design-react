@@ -6,13 +6,23 @@ export default class AlbumGrid extends Component {
   render() {
     return (
       <div>
+
+      <Row>
+        <Col md={{size:10}}>
         <h2>Top Album</h2>
+        </Col>
+       <Col md={{size:2}}>
         <div>
-          <a class="station" href="#">
-            Start Station
-          </a>
+
+        
+          <a class="station" href="#">Start Station</a>
+          
+       
         </div>
+         </Col>
+        </Row>
         <section id="albums">
+        <Col sm="1" md="12" xl="10">
           <Album
             image="img/album/album_01.png"
             nom="Native (Deluxe)"
@@ -73,7 +83,9 @@ export default class AlbumGrid extends Component {
             artist="The National"
             song={13}
           />
+          </Col>
         </section>
+        
       </div>
     );
   }

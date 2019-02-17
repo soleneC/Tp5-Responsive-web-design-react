@@ -16,7 +16,9 @@ class App extends Component {
         <Container fluid>
         <Row>
         <Col md="2">
+        <div className="d-none d-xl-block">
         <SideMenu />
+        </div>
         </Col>
         <Col md="10">
         <main>
