@@ -1,9 +1,18 @@
 import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+
+
 
 export default class SideMenu extends React.Component {
+
   render() {
+
     return (
+     /* <Container fluid>
+      <Row>
+      <Col md="2">*/
       <aside>
+      
         <h3>Browse</h3>
         <nav class="browse">
           <ul class="main">
@@ -45,6 +54,8 @@ export default class SideMenu extends React.Component {
           </ul>
         </nav>
       </aside>
+      
     );
   }
+
 }
